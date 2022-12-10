@@ -1,0 +1,54 @@
+/* RESET */
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+ * {
+    margin: 0;
+  }
+  
+  html, body {
+    height: 100%;
+  }
+  
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  
+  input, button, textarea, select {
+    font: inherit;
+  }
+  
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+
+  /* RESET END*/
+  
+  /* COLORS */
+
+  :root {
+    --primary_orange: hls(25,97%,53%);
+    --neutral_white: hsl(0, 0%, 100%);
+    --neutral_grey: hsl(217, 12%, 63%);
+    --neutral_medium-grey: hsl(216, 12%, 54%);
+    --neutral_dark-blue: hsl(213, 19%, 18%);
+    --neutral_very-dark-blue: hsl(216, 12%, 8%;
+  }
+
+  /* START CSS STYLES*/
+
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }  
