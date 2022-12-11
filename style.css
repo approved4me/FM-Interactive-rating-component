@@ -34,12 +34,12 @@
   /* COLORS */
 
   :root {
-    --primary_orange: hls(25,97%,53%);
+    --primary_orange: hsl(25,97%,53%);
     --neutral_white: hsl(0, 0%, 100%);
     --neutral_grey: hsl(217, 12%, 63%);
-    --neutral_medium-grey: hsl(216, 12%, 54%);
-    --neutral_dark-blue: hsl(213, 19%, 18%);
-    --neutral_very-dark-blue: hsl(216, 12%, 8%;
+    --neutral_medium-grey: hsl(213, 20%, 18%);
+    --neutral_dark-blue: hsl(215, 25%, 13%);
+    --neutral_very-dark-blue: hsl(228, 11%, 9%);
   }
 
   /* START CSS STYLES*/
@@ -52,3 +52,91 @@
   .attribution a {
     color: hsl(228, 45%, 44%);
   }  
+
+  body {
+    font-family: 'Overpass', sans-serif;
+    background-color: var(--neutral_very-dark-blue);
+  }
+
+  .main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  .main h1 {
+    color: var(--neutral_white);
+    margin-block: 1rem;
+  }
+  .main p {
+    font-size: 15px;
+    color: var(--neutral_grey);
+  }
+
+  article {
+    max-width: 26rem;
+    background-color: var(--neutral_dark-blue);
+    border-radius: 1rem;
+    padding: 2rem;
+    margin: 1rem;
+  }
+
+  .star {
+    background-color: var(--neutral_medium-grey);
+    display: inline-block;
+    padding: 0.8rem;
+    border-radius: 100vw;
+  }
+
+  .content_after {
+    display: none;
+  }
+
+  .rating ul {
+    margin-block: 1.5rem;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 0.5rem;
+  }
+
+  .rating li {
+    width: 2.8rem;
+    aspect-ratio: 1/1;
+    background-color: var(--neutral_medium-grey);
+    border-radius: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    line-height: 1;
+    color: var(--neutral_grey);
+    font-size: 15px;
+    transition: 250ms all linear;
+  }
+
+  .rating li:hover{
+    cursor: pointer;
+    background-color: var(--neutral_grey);
+    color: var(--neutral_medium-grey);
+  }
+
+  .submit {
+    background-color: var(--primary_orange);
+    width: 100%;
+    height: 3rem;
+    border-radius: 100vw;
+    color: var(--neutral_white);
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    transition: 250ms all linear;
+    border: transparent;
+  }
+
+  .submit:hover {
+    color: var(--primary_orange);
+    background-color: var(--neutral_white);
+    cursor: pointer;
+  }
