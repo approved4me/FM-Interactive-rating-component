@@ -47,6 +47,7 @@
   .attribution {
     font-size: 11px;
     text-align: center;
+    color: var(--neutral_white);
   }
 
   .attribution a {
