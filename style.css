@@ -141,3 +141,6 @@
     background-color: var(--neutral_white);
     cursor: pointer;
   }
+. active {
+background-color: car(--primary_orange);
+}
