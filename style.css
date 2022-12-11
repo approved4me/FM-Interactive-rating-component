@@ -21,6 +21,7 @@ input, button, textarea, select {
 }
 p, h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
+  margin: 0;
 }
 /* RESET END*/
 /* COLORS */
@@ -64,9 +65,7 @@ article {
   padding: 0.8rem;
   border-radius: 100vw;
 }
-.content_thanks {
-  display: none;
-}
+
 form {
   display: flex;
   justify-content: space-between;
@@ -113,6 +112,31 @@ form label:hover {
   background-color: var(--neutral_white);
   cursor: pointer;
 }
+
+.content_rating {
+  /* display: none; */
+}
+
+.content_thanks {
+  display: none; /* change from none to flex and vice versa for visibility / non-visibility*/
+  flex-direction: column;
+  align-items: center;
+}
+
+.content_thanks {
+  text-align: center;
+}
+
+.selection {
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  background-color: var(--neutral_medium-grey);
+  color: var(--primary_orange);
+  border-radius: 100vw;
+  line-height: 2rem;
+  padding-inline: 1rem;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
