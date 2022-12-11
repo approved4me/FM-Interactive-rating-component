@@ -59,6 +59,7 @@ article {
   padding: 2rem;
   margin: 1rem;
 }
+
 .star {
   background-color: var(--neutral_medium-grey);
   display: inline-block;
@@ -113,12 +114,9 @@ form label:hover {
   cursor: pointer;
 }
 
-.content_rating {
-  /* display: none; */
-}
 
 .content_thanks {
-  display: none; /* change from none to flex and vice versa for visibility / non-visibility*/
+  display: flex;
   flex-direction: column;
   align-items: center;
 }
@@ -135,6 +133,10 @@ form label:hover {
   border-radius: 100vw;
   line-height: 2rem;
   padding-inline: 1rem;
+}
+
+.hidden {
+    display: none;
 }
 
 .attribution {

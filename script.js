@@ -1,9 +1,9 @@
-let ratingNrs = document.getElementsByClassName("rating-li");
+const form = document.querySelector(".rating-form");
+const reteStart = document.querySelector(".content_rating");
+const thankYou = document.querySelector(".content_thanks");
 
-for (let i = 0; i < ratingNrs.length; i++) {
-    let ratingNr = ratingNrs[i];
-    ratingNr.onclick = function() {
-      ratingNr.classList.toggle("active");
-      console.log(ratingNrs);
-    }
-  }
+form.addEventListener("submit", function(e) {
+  e.preventDefault(); //prevents Browser from refreshing
+  reteStart.classList.add("hidden");
+  thankYou.classList.remove("hidden");
+})
