@@ -10,6 +10,7 @@ Thanks for checking out this front-end coding challenge.
 
 **To do this challenge, you need a basic understanding of HTML, CSS and JavaScript.**
 
+Live Preview:
 https://approved4me.github.io/FM-Interactive-rating-component/
 
 ## The challenge
