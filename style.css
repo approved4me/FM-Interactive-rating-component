@@ -46,7 +46,7 @@ main {
 }
 main h1 {
   color: var(--neutral_white);
-  margin-block: 1rem;
+  margin-block: 0.8rem;
 }
 main p {
   font-size: 15px;
