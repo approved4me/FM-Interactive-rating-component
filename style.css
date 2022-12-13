@@ -38,17 +38,17 @@ body {
   font-family: 'Overpass', sans-serif;
   background-color: var(--neutral_very-dark-blue);
 }
-.main {
+main {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
 }
-.main h1 {
+main h1 {
   color: var(--neutral_white);
   margin-block: 1rem;
 }
-.main p {
+main p {
   font-size: 15px;
   color: var(--neutral_grey);
 }
