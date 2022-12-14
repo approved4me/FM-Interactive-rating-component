@@ -108,10 +108,13 @@ form label:hover {
   transition: 250ms all linear;
   border: transparent;
 }
-.submit:hover {
-  color: var(--primary_orange);
-  background-color: var(--neutral_white);
-  cursor: pointer;
+
+@media only screen and (min-width: 768px)  {
+  .submit:hover {
+    color: var(--primary_orange);
+    background-color: var(--neutral_white);
+    cursor: pointer;
+  }
 }
 
 
