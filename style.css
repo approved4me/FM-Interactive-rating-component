@@ -91,11 +91,13 @@ input:checked + label{
   background-color: var(--primary_orange);
   color: white;
 }
-form label:hover {
-  cursor: pointer;
-  background-color: var(--neutral_grey);
-  color: var(--neutral_medium-grey);
-  transition: all 250ms linear;
+@media only screen and (min-width: 768px)  {
+  form label:hover {
+    cursor: pointer;
+    background-color: var(--neutral_grey);
+    color: var(--neutral_medium-grey);
+    transition: all 250ms linear;
+  }
 }
 .submit {
   background-color: var(--primary_orange);
